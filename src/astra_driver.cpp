@@ -266,7 +266,7 @@ void AstraDriver::configCb(Config &config, uint32_t level)
 
   // assign pixel format
 
-  ir_video_mode_.pixel_format_ = PIXEL_FORMAT_GRAY16;
+  ir_video_mode_.pixel_format_ = PIXEL_FORMAT_RGB888;
   color_video_mode_.pixel_format_ = PIXEL_FORMAT_RGB888;
   depth_video_mode_.pixel_format_ = PIXEL_FORMAT_DEPTH_1_MM;
 
